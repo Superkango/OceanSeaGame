@@ -5,6 +5,7 @@ using UnityEngine;
 public class Obstaculos : MonoBehaviour
 {
     public float speed = 5f;
+
     void Start()
     {
         Invoke("Destroy", 6f);

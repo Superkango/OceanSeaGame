@@ -10,7 +10,7 @@ public class Spawn : MonoBehaviour
     public float repeatingTime = 0f; 
     void Start()
     {
-        InvokeRepeating("SpawnObstacle", 0f, repeatingTime);
+        InvokeRepeating("SpawnObstacle", 3f, repeatingTime);
            
     }
 
